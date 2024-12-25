@@ -4,7 +4,8 @@ but turns out youtube has made that wildly complicated to do. So, this is more o
 arg 1 will be the http address of the youtube video you want audio from
 
 arg 2 will be your desired file name
-for example 
+
+for example:
 
 ytmp3 'https://www.youtube.com/watch?v=WfLszg_L1aQ' 'bratva'
 
