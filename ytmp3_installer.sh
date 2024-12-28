@@ -57,6 +57,7 @@ fi
 
 ##compile ytmp3 using g++
 g++ -std=c++17 main.cpp -o ytmp3
+chmod +x ytmp3
 
 ##move compiled ytmp3 to /usr/local/bin
 sudo mv ytmp3 /usr/local/bin/
