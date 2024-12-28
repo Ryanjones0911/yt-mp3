@@ -56,7 +56,7 @@ else
 fi
 
 ##compile ytmp3 using g++
-g++ main.cpp -o ytmp3 -std=c++17
+g++ -std=c++17 main.cpp -o ytmp3
 
 ##move compiled ytmp3 to /usr/local/bin
 mv ytmp3 /usr/local/bin/ytmp3
