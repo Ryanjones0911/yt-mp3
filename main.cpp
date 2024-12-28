@@ -11,7 +11,7 @@ int main (int argc, char *argv[])
 {
 
   //create directory 'media' if it does not already exist. This is where all converted audio files will go
-  std::filesystem::path mediaPath = "/Users/ryan/convertedMedia";
+  std::filesystem::path mediaPath = "/Users/ryan/YTRips";
   if (!exists(mediaPath)) 
   {
     std::filesystem::create_directory(mediaPath);
@@ -21,7 +21,7 @@ int main (int argc, char *argv[])
   std::string url = argv[1];
   std::string title = argv[2];
 
-  std::string input = "yt-dlp -x --audio-format wav -o /Users/ryan/convertedMedia/" + title + " " + url;
+  std::string input = "yt-dlp -x --audio-format wav -o /Users/ryan/YTRips/" + title + " " + url;
 
   system(input.c_str());
   return 0;
