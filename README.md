@@ -26,4 +26,6 @@ You have two options
 
 1) Download/clone into this repo and run 'ytmp3_installer.sh'. That should be all you need to do.
 
-2) You can also install manually if you want. Compile 'main.cpp', move the resulting binary 'ytmp3' into '/usr/local/bin', make sure your permissions are all set and you should be up and running. 
+2) You can also install manually if you want. Compile 'main.cpp', move the resulting binary 'ytmp3' into '/usr/local/bin', make sure your permissions are all set and you should be up and running.
+
+NOTE: I basically hardcoded the Debian package manager into this script because that's far and away the most commonly used package manager and also I'm just lazy. If there ends up being demand I'll rewrite it to be more robust.
