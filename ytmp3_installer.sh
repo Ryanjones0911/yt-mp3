@@ -2,9 +2,9 @@
 #Unix installer for 'ytmp3', a wrapper for youtube-dlp which simplifies ripping
 #wav files from youtube videos
 
-echo "Creating directory convertedMedia in user directory to store ripped audio"
+echo "Creating directory YTRips in user directory to store ripped audio"
 
-AUDIO_DIR="/Users/$USER/convertedMedia"
+AUDIO_DIR="/Users/$USER/YTRips"
 
 if [[ -d "$AUDIO_DIR" ]]; then
   echo "$AUDIO_DIR already exists"
