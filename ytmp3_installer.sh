@@ -59,6 +59,6 @@ fi
 g++ -std=c++17 main.cpp -o ytmp3
 
 ##move compiled ytmp3 to /usr/local/bin
-mv ytmp3 /usr/local/bin/
+sudo mv ytmp3 /usr/local/bin/
 
 ##install now complete, ytmp3 can be run anywhere
