@@ -25,7 +25,7 @@ UNIX/MacOS
 You have two options
 
 1) Download/clone into this repo and run 'ytmp3_installer.sh'. That should be all you need to do.
-   (There's a weird Clang bug that I haven't fixed yet. First time you run installer it'll fail with clang errors. Literally just run it again and       (it'll work fine.)
+   (There's a weird Clang bug that I haven't fixed yet. First time you run installer it'll fail with clang errors. Literally just run it again and        it'll work fine.)
 
 3) You can also install manually if you want. Compile 'main.cpp', move the resulting binary 'ytmp3' into '/usr/local/bin', make sure your permissions are all set and you should be up and running.
 
