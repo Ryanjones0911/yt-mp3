@@ -50,7 +50,7 @@ else
     #based Linux distro. If there's demand I'll add support for others.
 
     #If you're here trying to figure out why this didnt work for you, Hi! Message me.
-    sudo apt install gcc
+    sudo apt-get install gcc
 
   fi
 fi
