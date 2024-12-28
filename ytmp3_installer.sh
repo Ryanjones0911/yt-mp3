@@ -1,7 +1,7 @@
 #!/bin/bash
 #Unix installer for 'ytmp3', a wrapper for youtube-dlp which simplifies ripping
 #wav files from youtube videos
-export CXX=g++
+
 echo "Creating directory YTRips in user directory to store ripped audio"
 
 AUDIO_DIR="/Users/$USER/YTRips"
